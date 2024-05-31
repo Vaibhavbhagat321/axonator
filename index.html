@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axonator | Assignment</title>
+    <link href="./style/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/e45be0b95d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="font-sans capitalize text-slate-900">
+    <header
+      class="flex-row-start-center px-1 py-3 font-bold border-b border-slate-300 shadow-sm"
+    >
+      <div class="flex-row-start-center pl-2 pr-4 gap-3">
+        <img src="assets/logo.png" alt="logo" height="25" width="25" />
+        <h2 class="font-bold text-lg">Safety Audit</h2>
+      </div>
+      <div class="flex-row-start-center gap-4 px-4 border-x border-slate-300">
+        <i class="fa-solid fa-arrow-rotate-left"></i>
+        <i class="fa-solid fa-arrow-rotate-right"></i>
+      </div>
+      <div class="flex-row-start-center gap-4 px-4">
+        <i class="fa-solid fa-scissors"></i>
+        <i class="fa-regular fa-copy"></i>
+        <i class="fa-solid fa-file-circle-plus"></i>
+      </div>
+    </header>
+
+    <div class="flex">
+      <aside
+        class="w-[20%] border-r border-slate-200 h-auto px-3 py-8 shadow-md"
+      >
+        <div>
+          <h2 class="font-bold text-lg">Charts</h2>
+          <div class="py-3 flex-row-start-center gap-4">
+            <i class="fa-solid fa-chart-pie"></i>
+            <i class="fa-solid fa-chart-gantt"></i>
+            <i class="fa-solid fa-chart-line"></i>
+            <i class="fa-solid fa-circle-half-stroke"></i>
+            <i class="fa-solid fa-chart-column"></i>
+            <i class="fa-solid fa-tachograph-digital"></i>
+            <i class="fa-solid fa-diagram-predecessor"></i>
+          </div>
+        </div>
+        <div class="mb-5">
+          <h2 class="font-bold mt-5 mb-3 text-lg">Form Feilds</h2>
+          <div class="relative">
+            <input
+              type="text"
+              name="search"
+              placeholder="Search..."
+              class="border border-slate-200 rounded-md w-full py-2 pr-1 pl-8"
+            />
+            <i
+              class="fa-solid fa-magnifying-glass absolute top-[50%] translate-y-[-50%] left-2"
+            ></i>
+          </div>
+          <div class="pl-2 text-base mt-5">
+            <div class="aside-list">
+              <i class="menu-icon fa-solid fa-greater-than fa-2xs"></i>
+              <i class="fa-solid fa-table-list"></i>
+              <p>facility compalints</p>
+            </div>
+
+            <div class="aside-list">
+              <i class="menu-icon fa-solid fa-greater-than fa-2xs"></i>
+              <i class="fa-solid fa-table-list"></i>
+              <p>service requests</p>
+            </div>
+
+            <div class="aside-list">
+              <i class="menu-icon fa-solid fa-chevron-down fa-2xs"></i>
+              <i class="fa-solid fa-table-list"></i>
+              <p>subscriptions</p>
+            </div>
+
+            <div class="ml-8 pl-1 border-l border-slate-200">
+              <ul>
+                <li class="lst-item">
+                  <i class="fa-solid fa-staff-snake"></i>
+                  <p>complaints</p>
+                </li>
+                <li class="lst-item">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>created on</p>
+                </li>
+                <li class="lst-item">
+                  <i class="fa-regular fa-calendar-minus"></i>
+                  <p>Date of exection</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="aside-list">
+              <i class="menu-icon fa-solid fa-chevron-down fa-2xs"></i>
+              <i class="fa-solid fa-table-list"></i>
+              <p>project</p>
+            </div>
+
+            <div class="ml-8 pl-1 border-l border-slate-200">
+              <ul>
+                <li class="lst-item">
+                  <i class="fa-solid fa-staff-snake"></i>
+                  <p>complaints</p>
+                </li>
+                <li class="lst-item border-2 border-[#55a5f0] bg-[#d1e9ff]">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>created on</p>
+                </li>
+                <li class="lst-item">
+                  <i class="fa-regular fa-calendar-minus"></i>
+                  <p>Date of exection</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="aside-list">
+              <i class="menu-icon fa-solid fa-chevron-down fa-2xs"></i>
+              <i class="fa-solid fa-table-list"></i>
+              <p>contracts</p>
+            </div>
+
+            <div class="ml-8 pl-1 border-l border-slate-200">
+              <ul>
+                <li class="lst-item">
+                  <i class="fa-solid fa-staff-snake"></i>
+                  <p>complaints</p>
+                </li>
+                <li class="lst-item">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>created on</p>
+                </li>
+                <li class="lst-item">
+                  <i class="fa-regular fa-calendar-minus"></i>
+                  <p>Date of exection</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="bg-[#f8f8f8] w-[60%] relative">
+        <div
+          class="bg-white border border-slate-300 mt-10 mx-10 p-10 shadow-lg mb-5 relative"
+        >
+          <h2 class="text-lg font-bold">monthly report</h2>
+          <div class="grid grid-rows-2 grid-cols-2 gap-8 mt-4">
+            <div class="box">
+              <div class="flex justify-between items-center">
+                <i class="fa-solid fa-filter p-1"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <h2 class="text-base font-semibold mt-3">
+                work orders by status
+              </h2>
+              <div class="h-[180px] w-full mt-3 p-2 relative text-sm">
+                <div class="flex flex-row justify-center items-center w-full">
+                  <div class="w-[15%] flex flex-col gap-2">
+                    <p>400</p>
+                    <p>320</p>
+                    <p>240</p>
+                    <p>160</p>
+                    <p>80</p>
+                    <p>0</p>
+                  </div>
+                  <div class="w-[85%] flex flex-col gap-7 relative">
+                    <hr />
+                    <hr />
+                    <hr />
+                    <hr />
+                    <hr />
+                    <hr />
+                    <div
+                      class="absolute w-[15%] h-[22%] bg-[#9487f8] bottom-0 left-[5%]"
+                    ></div>
+                    <div
+                      class="absolute w-[15%] h-[12%] bg-[#9487f8] bottom-0 left-[30%]"
+                    ></div>
+                    <div
+                      class="absolute w-[15%] h-[82%] bg-[#9487f8] bottom-0 left-[55%]"
+                    ></div>
+                    <div
+                      class="absolute w-[15%] h-[38%] bg-[#9487f8] bottom-0 left-[80%]"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-row justify-end items-center text-sm pr-3">
+                <div class="rotate-[-60deg] h-16 m-[-3%]">demo d...</div>
+                <div class="rotate-[-60deg] h-16 m-[-3%]">did not j...</div>
+                <div class="rotate-[-60deg] h-16 m-[-3%]">did not re...</div>
+                <div class="rotate-[-60deg] h-16 m-[-3%]">in follow...</div>
+              </div>
+            </div>
+            <div class="box border-2 border-[#54a5f0]">
+              <div class="flex justify-between items-center">
+                <i class="fa-solid fa-filter p-1 rounded-md bg-[#efefef]"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <h2 class="text-base font-semibold mt-3">service requests</h2>
+              <div class="h-[180px] w-full mt-3 p-2 relative text-sm">
+                <div class="flex flex-row justify-center items-center w-full">
+                  <div class="w-[15%] flex flex-col gap-2">
+                    <p>400</p>
+                    <p>320</p>
+                    <p>240</p>
+                    <p>160</p>
+                    <p>80</p>
+                    <p>0</p>
+                  </div>
+                  <div class="w-[85%] flex flex-col gap-7 relative">
+                    <hr />
+                    <hr />
+                    <hr />
+                    <hr />
+                    <hr />
+                    <hr />
+                    <div
+                      class="absolute w-[15%] h-[22%] bg-[#9487f8] bottom-0 left-[5%]"
+                    ></div>
+                    <div
+                      class="absolute w-[15%] h-[12%] bg-[#9487f8] bottom-0 left-[30%]"
+                    ></div>
+                    <div
+                      class="absolute w-[15%] h-[82%] bg-[#9487f8] bottom-0 left-[55%]"
+                    ></div>
+                    <div
+                      class="absolute w-[15%] h-[38%] bg-[#9487f8] bottom-0 left-[80%]"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-row justify-end items-center text-sm pr-3">
+                <div class="rotate-[-60deg] h-16 m-[-3%]">demo d...</div>
+                <div class="rotate-[-60deg] h-16 m-[-3%]">did not j...</div>
+                <div class="rotate-[-60deg] h-16 m-[-3%]">did not re...</div>
+                <div class="rotate-[-60deg] h-16 m-[-3%]">in follow...</div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="flex justify-start items-center gap-3">
+                <i class="fa-solid p-1 fa-filter"></i>
+                <select
+                  name="religion"
+                  id="religion"
+                  class="bg-slate-50 rounded-md px-1 font-medium text-sm capitalize"
+                >
+                  <option value="religion">religion</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+                <select
+                  name="country"
+                  id="country"
+                  class="bg-slate-50 rounded-md px-1 font-medium text-sm capitalize"
+                >
+                  <option value="volvo">country</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+              <h2 class="text-base font-semibold mt-3">status</h2>
+              <div class="h-[180px] w-full mt-3 p-2 relative text-sm">
+                <div class="flex flex-row justify-center items-center w-full">
+                  <div class="w-[15%] flex flex-col gap-2">
+                    <p>400</p>
+                    <p>320</p>
+                    <p>240</p>
+                    <p>160</p>
+                    <p>80</p>
+                    <p>0</p>
+                  </div>
+                  <div class="w-[85%] flex flex-col gap-7 relative">
+                    <hr />
+                    <hr />
+                    <hr />
+                    <hr />
+                    <hr />
+                    <hr />
+                    <div
+                      class="absolute w-[15%] h-[22%] bg-[#9487f8] bottom-0 left-[5%]"
+                    ></div>
+                    <div
+                      class="absolute w-[15%] h-[12%] bg-[#9487f8] bottom-0 left-[30%]"
+                    ></div>
+                    <div
+                      class="absolute w-[15%] h-[82%] bg-[#9487f8] bottom-0 left-[55%]"
+                    ></div>
+                    <div
+                      class="absolute w-[15%] h-[38%] bg-[#9487f8] bottom-0 left-[80%]"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-row justify-end items-center text-sm pr-3">
+                <div class="rotate-[-60deg] h-16 m-[-3%]">demo d...</div>
+                <div class="rotate-[-60deg] h-16 m-[-3%]">did not j...</div>
+                <div class="rotate-[-60deg] h-16 m-[-3%]">did not re...</div>
+                <div class="rotate-[-60deg] h-16 m-[-3%]">in follow...</div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="country-boc"
+            class="absolute bottom-20 left-48 border border-slate-200 shadow-lg p-2 bg-white rounded-md"
+          >
+            <div class="relative">
+              <input
+                type="text"
+                name="search"
+                placeholder="Search..."
+                class="border border-slate-200 rounded-md w-full py-2 pr-1 pl-8"
+              />
+              <i
+                class="fa-solid fa-magnifying-glass absolute top-[50%] translate-y-[-50%] left-2"
+              ></i>
+            </div>
+            <div class="mx-2 my-1">
+              <input type="checkbox" id="angola" name="vehicle1" value="Bike" />
+              <label for="angola"> angola</label>
+            </div>
+            <div class="mx-2 my-1">
+              <input
+                type="checkbox"
+                id="united states of america"
+                name="vehicle1"
+                value="Bike"
+              />
+              <label for="united states of america">
+                united states of america</label
+              >
+            </div>
+            <div class="mx-2 my-1">
+              <input type="checkbox" id="india" name="vehicle1" value="Bike" />
+              <label for="india"> india</label>
+            </div>
+            <div class="mx-2 my-1">
+              <input
+                type="checkbox"
+                id="united kingdom"
+                name="vehicle1"
+                value="Bike"
+              />
+              <label for="united kingdom"> united kingdom</label>
+            </div>
+            <div class="mx-2 my-1">
+              <input type="checkbox" id="cyprus" name="vehicle1" value="Bike" />
+              <label for="cyprus"> cyprus</label>
+            </div>
+            <div class="flex flex-row justify-between items-center mt-2 mb-3">
+              <div class="flex flex-row gap-4">
+                <button class="text-sm">Select all</button>
+                <button class="text-sm">Clear all</button>
+              </div>
+              <button class="font-bold">Done</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="border border-slate-200 w-full flex flex-row justify-start items-center absolute left-0 bottom-0 bg-white"
+        >
+          <div class="tab">
+            <i class="fa-solid fa-grip-vertical text-slate-300"></i>
+            <p class="mr-3">monthly sales report</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="tab">
+            <i class="fa-solid fa-grip-vertical text-slate-300"></i>
+            <p class="mr-3">untitled page</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="tab">
+            <i class="fa-solid fa-grip-vertical text-slate-300"></i>
+            <p class="mr-3">untitled page</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <i class="fa-regular fa-square-plus text-slate-500 ml-2"></i>
+        </div>
+      </main>
+
+      <aside
+        class="w-[20%] h-auto bg-[#f9fbfc] shadow-md px-2 border-l border-slate-200"
+      >
+        <div class="flex flex-row justify-start items-center gap-2">
+          <i
+            class="fa-solid fa-sliders px-3 py-3 border-b-2 border-[#6147e1]"
+          ></i>
+          <i class="fa-regular fa-comments px-3 py-3"></i>
+          <i class="fa-solid fa-clock-rotate-left px-3 py-3"></i>
+        </div>
+        <div>
+          <h2 class="flex gap-2 mt-5 font-semibold justify-start items-center">
+            <i class="fa-regular fa-file-lines"></i>
+            <p class="text-lg">form settings</p>
+          </h2>
+        </div>
+        <div class="bg-white border border-slate-200 w-full mt-5 py-4">
+          <div class="w-[80%] mx-auto">
+            <label for="name" class="text-sm block mb-2">name</label>
+            <input
+              type="text"
+              name="name"
+              class="border border-slate-200 rounded-md w-full px-3 py-1 mb-4"
+            />
+          </div>
+          <div class="w-[80%] mx-auto">
+            <label for="description" class="text-sm block mb-2"
+              >description</label
+            >
+            <input
+              type="text"
+              name="description"
+              class="border border-slate-200 rounded-md w-full px-3 py-1 mb-4"
+            />
+          </div>
+        </div>
+        <div class="my-5">
+          <button
+            class="flex gap-2 mx-auto text-white justify-center items-center px-2 py-1 rounded-md capitalize bg-gradient-to-r from-[#4e39fa] to-[#1580f4]"
+          >
+            <i class="fa-solid fa-trowel-bricks"></i>
+            <p>design</p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
